@@ -32,8 +32,6 @@ The adjustment set A specified when calling \code{dag.adjustment} overrules the
 A DAG with A as the adjustment set and the associations introduced by
  adjustment for A added to the DAG.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }

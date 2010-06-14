@@ -26,13 +26,11 @@ This function identifies a collider-blocked path as 'blocked by collider' even i
 A DAG with component \code{path.status} added.
 }
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.\cr
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

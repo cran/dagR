@@ -17,7 +17,7 @@ dag.adjust(dag, A = c())
 The DAG to be adjusted (or evaluated).
 }
   \item{A}{
-Vector indicating the adjustment set.
+Vector indicating the adjustment set. \emph{The numbering is according to the nodes vector of the DAG, which is shown e.g. in the legend of a DAG drawn by \code{dag.draw}. This numbering is different (+1) from the one used in \code{dag.init}, because the nodes vector also contains the exposure at position 1 (in contrast to the covariables vector used in \code{dag.init})!}
 }
 }
 \details{
@@ -27,9 +27,8 @@ If the adjustment set is empty, the function only looks for
 \value{
 A DAG with the adjustment set A, and possibly with additional
  associations introduced by adjustment, biasing paths found,
- and the status of these.
-}
-\references{
+ and the status of these.\cr
+If adjustment set is not empty, \code{searchType} and \code{searchRes} are set to \code{NULL}.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>

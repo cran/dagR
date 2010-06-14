@@ -18,22 +18,14 @@ Vector of length two, indicating x and y of first point.
 Vector of length two, indicating x and y of second point.
 }
 }
-\details{
-}
 \value{
 Distance between the two points.
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }
-\note{
-}
 
 
-\seealso{
-}
 \examples{
 dp<-distPoints(c(0,0), c(1,1));
 dp;

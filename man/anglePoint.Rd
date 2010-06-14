@@ -24,12 +24,8 @@ Radian angle indicating into which direction the new point is to
 The distance at which the new point is situated from the source point.
 }
 }
-\details{
-}
 \value{
 A vector of length two with the coordinates of the new point.
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>

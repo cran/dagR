@@ -21,16 +21,8 @@ X coordinate for repositioning legend.
 Y coordinate for repositioning legend.
 }
 }
-\details{
-}
-\value{
-}
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

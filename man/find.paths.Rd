@@ -16,19 +16,15 @@ find.paths(dag)
 A DAG for which paths should be found.
 }
 }
-\details{
-}
 \value{
 A DAG with components \code{pathsN} (number of paths identified) and \code{paths} (matrix with each row describing one path by indicating the arcs forming the path; ends with \code{NA} as some other function recognize the end of the path that way) added. 
 }
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.\cr
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

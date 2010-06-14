@@ -18,22 +18,14 @@ dag.move(dag)
 The DAG to be modified.
 }
 }
-\details{
-}
 \value{
 The same DAG, but with the feature repositioned.
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }
-\note{
-}
 
 
-\seealso{
-}
 \examples{
 \dontrun{dag1m<-dag.move(dag.adjust(demo.dag1(), 3));}
 }

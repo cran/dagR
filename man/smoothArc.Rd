@@ -31,18 +31,14 @@ How far from point A and B should the line end?
 If TRUE, the point through which the curve goes is drawn (this is to allow better moving it with \code{dag.move}).
 }
 }
-\details{
-}
-\value{
-}
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }
 \note{
-In the version 1.0.1 distributed as online supplemental material with Breitling (in press), the function contains arbitrary default values used during development.
+In the version 1.0.1 distributed as online supplemental material with Breitling (2010), the function contains arbitrary default values used during development.
 }
 
 

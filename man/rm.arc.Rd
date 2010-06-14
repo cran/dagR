@@ -18,12 +18,8 @@ The DAG from which to remove the arc.
 A single integer, indicating which arc is to be removed (refering to the respective row of the \code{dag$arc} matrix).
 }
 }
-\details{
-}
 \value{
 A DAG with the arc specified removed along with the corresponding attributes like arc types, curves, and path evaluation variables.
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>

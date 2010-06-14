@@ -51,28 +51,28 @@ Vector of covariable labels.
 \emph{Currently not used.}
 }
 }
-\details{
-}
 \value{
-A DAG. Check out some of the demonstration DAGs for details.
+A DAG (objects of class \code{dagRdag}). Check out some of the demonstration DAGs for details.
  The DAG is actually a list object, with elements
  \code{cov.types} (the \code{covs} vector, with 0 put in front, and -1 at the end).;
  \code{x} and \code{y} (coordinates for drawing the nodes, initially set up more or less in a half-circle above the x->y arc);
  \code{arc} (the arcs, transformed into a matrix);
  \code{arc.type} (the \code{assocs} vector);
  \code{curve.x} and \code{curve.y} (if associations are featured, these provide the coordinates through which to curve);
- \code{xgap}, \code{ygap}, \code{len} (the respective drawing parameters). 
+ \code{xgap}, \code{ygap}, \code{len} (the respective drawing parameters);
+ \code{version} (dagR version).
 }
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.\cr
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }
-\note{
-}
 
+\note{
+CAVE: The numbering of the covariables and arc coordinates is different here than in the functions later used on the DAG (e.g. \code{add.arc}, \code{dag.adjust})! The functions generally work according to the indexing of the R objects that they handle. Whereas for \code{dag.init} the \code{n} covariable nodes are numbered \code{1:n}, the node vector of the resulting DAG will also contain the exposure node at the beginning and the outcome node at the end, i.e. it will go from \code{1:(n+2)} with the covariables at \code{2:n+1}. \code{summary_dagRdag} will show the latter numbering. \emph{Example}: when adjusting for the first covariable, \code{dag.adjust} must be handed the adjustment set \code{A=2}, as the first covariable will occupy the second node (the first node is occupied by the exposure).
+}
 
 \seealso{
 \code{\link{dag.draw}}

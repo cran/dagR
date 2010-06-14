@@ -19,17 +19,11 @@ A numeric value, for which the presence in a vector is to be checked.
 A vector of numeric values.
 }
 }
-\details{
-}
 \value{
 Boolean; TRUE if value is present, FALSE if not.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

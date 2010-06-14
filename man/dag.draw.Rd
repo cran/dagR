@@ -37,19 +37,15 @@ Boolean indicating whether the curving points of undirected associations should 
 \emph{Currently not used.}
 }
 }
-\details{
-}
 \value{
 Returns the DAG (for whatever reason...).
 }
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.\cr
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

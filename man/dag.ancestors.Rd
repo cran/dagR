@@ -19,18 +19,12 @@ The DAG to be evaluated.
 A vector of nodes for which ancestors are to be identified.
 }
 }
-\details{
-}
 \value{
 A vector indicating which nodes are ancestors of those in A.
  Note that A actually is included at the beginning of the vector.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

@@ -19,19 +19,12 @@ Vector of length two indicating the coordinates of the first point.
 Vector of length two indicating the coordinates of the second point.
 }
 }
-\details{
-}
 \value{
 A numeric value [0, 2*pi).
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
 }
-\note{
-}
-
 
 \seealso{
 \code{\link{smoothArc}}, \code{\link{addAngle}}

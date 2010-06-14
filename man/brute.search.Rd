@@ -30,14 +30,10 @@ If =0, all eligible adjustment sets are evaluated. If =1, evaluations are
  Defaults to 0.
 }
 }
-\details{
-}
 \value{
 A dataframe with the first columns (\code{X1..Xn}) indicating the variables in the respective adjustment set evaluated.
  The column \code{totalPaths} indicates the number of paths found when adjusting for the respective set,
  and \code{openPaths} indicates the number of biasing paths.
-}
-\references{
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
@@ -53,8 +49,6 @@ The output produced by \code{brute.search} allows to manually identify
 }
 
 
-\seealso{
-}
 \examples{
 bs<-brute.search(demo.dag1(), trace=FALSE);
 bs;

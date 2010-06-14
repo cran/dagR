@@ -24,18 +24,12 @@ A vector of length 2, indicating from which node (first element) to
 0 (=default) for a directed arc, 1 for an undirected association.
 }
 }
-\details{
-}
 \value{
 A DAG with the arc (and corresponding \code{arc.type}) added, and with the
- path-related variables (\code{paths}, \code{pathsN}, \code{path.status}) removed.
-}
-\references{
+ path-related variables (\code{paths}, \code{pathsN}, \code{path.status}, \code{searchType}, \code{searchRes}) removed.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

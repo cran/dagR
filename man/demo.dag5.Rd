@@ -11,17 +11,11 @@ Initializes a miscellaneous DAG.
 \usage{
 demo.dag5()
 }
-\details{
-}
 \value{
 Returns a DAG.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

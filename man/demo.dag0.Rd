@@ -10,17 +10,11 @@ Initializes a simple DAG used during the dagR development phase.
 \usage{
 demo.dag0()
 }
-\details{
-}
 \value{
 Returns a DAG.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

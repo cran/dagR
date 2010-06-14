@@ -19,17 +19,11 @@ Angle 1 in radian.
 Angle 2 in radian.
 }
 }
-\details{
-}
 \value{
 numeric value [0, 2*pi).
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

@@ -7,24 +7,20 @@ Set up demo DAG #2.
 \description{
 Initializes a more complex DAG, motivated by Shrier (2008).
  This DAG was used to examine the performance of \code{brute.search} and
- has been featured in Breitling (in press).
+ has been featured in Breitling (2010).
 }
 \usage{
 demo.dag2()
-}
-\details{
 }
 \value{
 Returns a DAG.
 }
 \references{
-Breitling LP (in press). dagR: a suite of R functions for directed acyclic graphs. Epidemiology.\cr
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
 Shrier I, Platt RW (2008). Reducing bias through directed acyclic graphs. BMC Med Res Methodol 8:70
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

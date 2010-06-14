@@ -24,18 +24,12 @@ A boolean indicating if some output should be printed (TRUE) or
  not (FALSE=default).
 }
 }
-\details{
-}
 \value{
 A matrix with one combination per row. For the shorter combinations,
  the columns to the right are filled up with NA.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

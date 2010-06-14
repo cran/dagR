@@ -9,6 +9,8 @@ function(dag, arc)
   dag$pathsN<-NULL;
   dag$paths<-NULL;
   dag$path.status<-NULL;
+  dag$searchType <- NULL;
+  dag$searchRes <- NULL;
   return(dag);
 }
 

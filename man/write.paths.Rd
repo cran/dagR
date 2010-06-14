@@ -23,16 +23,8 @@ An x coordinate to change the position of the path writing.
 A y coordinate to change the position of the path writing.
 }
 }
-\details{
-}
-\value{
-}
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

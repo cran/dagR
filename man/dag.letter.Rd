@@ -25,16 +25,8 @@ X position.
 Y position.
 }
 }
-\details{
-}
-\value{
-}
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

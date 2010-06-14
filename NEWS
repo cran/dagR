@@ -1,0 +1,31 @@
+2010-06-14
+* version 1.0.1 to 1.1.1
+* removed empty sections from .Rd files
+* dag.init
+- now adds version of dagR to the DAG
+- now assigns class "dagRdag" 
+- elaborated documentation regarding node numbering
+* rm.node, add.arc, rm.arc
+- now also remove searchType and searchRes
+* dag.adjust
+- if adjustment set not empty, now also removes searchType and searchRes
+- elaborated documentation regarding node numbering
+* is.acyclic
+- new argument: maxSecs
+* new function: viv
+* new function: msas
+* new function: dag.search
+* new function: summary_dagRdag
+
+OPEN ISSUES
+* brute.search
+- has trouble if there are no eligible adjustment sets to evaluate
+  (e.g. only unknown variables, but allow.unknowns=FALSE)
+* dag.draw
+- for some reason, this sometimes has a problem because components
+  of dag$arc strangely become lists instead of numeric
+* dag.letter
+- unknowns are not shown with adjustment marking
+- adjustment marking is not described in documentation
+* summary_dagRdag should become summary.dagRdag...
+* helper functions should go internal...

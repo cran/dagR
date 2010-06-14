@@ -33,16 +33,8 @@ Space between node and arc ends on y axis.
 Length of arrow whiskers (default=0.1).
 }
 }
-\details{
-}
-\value{
-}
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

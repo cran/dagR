@@ -37,12 +37,8 @@ If no x and y coordinates are provided, the function places the node
 \value{
 A DAG with the new node added.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

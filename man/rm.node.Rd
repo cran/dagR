@@ -18,17 +18,12 @@ The DAG from which to remove the node.
 A single integer, indicating which node is to be removed.
 }
 }
-\details{
-}
 \value{
 A DAG with the node specified removed, along with the corresponding attributes and dependent variables, i.e. arcs involving this node are also removed, and the numbering of the nodes (and their occurrence in arcs) is corrected accordingly.
-}
-\references{
+ \cr Note: Search components (\code{searchType}, \code{searchRes}) of the DAG currently are generally set to NULL, even if no path is removed. This is for simplicity, because the node numbers would need to be changed eg. in the \code{searchRes} variables etc.
 }
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

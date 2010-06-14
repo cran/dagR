@@ -18,17 +18,11 @@ Radian angle 1.
 Radian angle 2.
 }
 }
-\details{
-}
 \value{
 Numeric in range from -pi to pi.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 

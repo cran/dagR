@@ -18,17 +18,11 @@ The node of interest.
 The DAG to be evaluated.
 }
 }
-\details{
-}
 \value{
 TRUE if unknown (acc. to type or name), FALSE otherwise.
 }
-\references{
-}
 \author{
 Lutz P Breitling <lutz.breitling@gmail.com>
-}
-\note{
 }
 
 
