@@ -1,7 +1,7 @@
 dag.init <-
 function (outcome = NULL, exposure = NULL, covs = c(), arcs = c(), 
     assocs = c(), xgap = 0.04, ygap = 0.05, len = 0.1, y.name = NULL, 
-    x.name = NULL, cov.names = c(), ...) 
+    x.name = NULL, cov.names = c(), symbols = NULL, ...) 
 { # covs: 1 for a covariable, 2 for an unknown;
   # arcs: the numbering refers to the covs vector, i.e. it
   #       differs from the later numbering in the DAG objects;
@@ -48,6 +48,10 @@ function (outcome = NULL, exposure = NULL, covs = c(), arcs = c(),
         }
     }
     node.names <- c(x.name, cov.names, y.name)
+
+  # create custom symbols array if necessary;
+    if(is.null(symbols)) symbols<-rep(NA, length(node.x));
+
     dag.out$cov.types <- c(0, covs, -1)
     dag.out$x <- node.x
     dag.out$y <- node.y
@@ -60,6 +64,7 @@ function (outcome = NULL, exposure = NULL, covs = c(), arcs = c(),
     dag.out$len <- len
     dag.out$names <- node.names
     dag.out$adj <- c()
+    dag.out$symbols <- symbols;
     dag.out$version<-installed.packages()["dagR","Version"];
     class(dag.out)<-"dagRdag";
     return(dag.out)

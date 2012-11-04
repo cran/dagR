@@ -1,7 +1,21 @@
 dag.draw <-
-function(dag, legend=TRUE, paths=TRUE, numbering=FALSE, p=FALSE,...)
+function(dag, legend=TRUE, paths=TRUE, numbering=FALSE, p=FALSE, alt.symb=TRUE, noxy=0,...)
 { # the is.numeric() condition is "new" and avoid error when paths have not been evaluated;
   # the y.low definition for legend==F && paths==T is "new" to ensure display of paths;
+
+  # the noxy option is new to version 1.1.2;  
+
+  # the alternative symbols options is new to version 1.1.2;
+  #  it requires $symbols of the dag not to be NULL, so this is checked and
+  #  a warning may be issued;
+  # it would have been nice to write the custom symbols with something like
+  #  boxed.labels or shadowtext, but these do not allow bar/underlining etc.
+
+  if(is.null(dag$symbols)) {
+    dag$symbols<-rep(NA, length(dag$x));
+    dag$warning<-"WARNING! DAG's from version 1.1.2 on should contain a $symbols array. This has been added by dag.draw";
+  }
+
   y.low<-(-0.25);
   if( legend==TRUE && (paths==TRUE && is.numeric(dag$pathsN)) )
   { y.low<-y.low-max(c(0.05*(length(dag$x)-4), 0.15+0.065*(dag$pathsN-5)));
@@ -20,10 +34,20 @@ function(dag, legend=TRUE, paths=TRUE, numbering=FALSE, p=FALSE,...)
   plot(x=c(x.left, x.right),
        y=c(y.low, y.high), type="n", axes=FALSE, xlab='', ylab='');
 
-  text(dag$x[1], dag$y[1], expression(X));
-  text(dag$x[length(dag$x)], dag$y[length(dag$y)], expression(Y));
-  garrows(dag$x[1], dag$y[1], dag$x[length(dag$x)], dag$y[length(dag$y)], dag$xgap, dag$ygap, dag$len);
-  text(0.5*(dag$x[1]+dag$x[length(dag$x)]), 0.5*(dag$y[1]+dag$y[length(dag$y)])+dag$ygap/2, "?");
+  if( (alt.symb==FALSE) || (is.na(dag$symbols[1])) ) {
+    text(dag$x[1], dag$y[1], "X");
+  } else text(dag$x[1], dag$y[1], bquote(.(dag$symbols[1])));
+
+  if( (alt.symb==FALSE) || (is.na(dag$symbols[length(dag$x)])) ) {
+    text(dag$x[length(dag$x)], dag$y[length(dag$y)], "Y");
+  } else text(dag$x[length(dag$x)], dag$y[length(dag$y)],
+              bquote(.(dag$symbols[length(dag$x)])));
+
+  if( (noxy==0) || (noxy==2) )
+  { garrows(dag$x[1], dag$y[1], dag$x[length(dag$x)], dag$y[length(dag$y)], dag$xgap, dag$ygap, dag$len);
+    if(noxy==0) text(0.5*(dag$x[1]+dag$x[length(dag$x)]),
+                     0.5*(dag$y[1]+dag$y[length(dag$y)])+dag$ygap/2, "?");
+  }
 
 # write covariate symbols
   i1<-1;
@@ -35,22 +59,29 @@ function(dag, legend=TRUE, paths=TRUE, numbering=FALSE, p=FALSE,...)
     i1<-i1+1;
     if(dag$names[i1]=="unknown" || dag$cov.types[i1]==2)
     { i_u<-i_u+1;
-      text(dag$x[i1], dag$y[i1], bquote(U[.(i_u)]));
+      if( (alt.symb==FALSE) || (is.na(dag$symbols[i1])) ) {
+        text(dag$x[i1], dag$y[i1], bquote(U[.(i_u)]));
+      } else text(dag$x[i1], dag$y[i1], bquote(.(dag$symbols[i1])));
+
     } else
     { i_c<-i_c+1;
       if(is.in(i1, dag$adj)==TRUE)
-      { text(dag$x[i1], dag$y[i1], bquote(underline(bar(C))[.(i_c)]));
+      { if( (alt.symb==FALSE) || (is.na(dag$symbols[i1])) ) {
+          text(dag$x[i1], dag$y[i1], bquote(underline(bar(C))[.(i_c)]));
+        } else text(dag$x[i1], dag$y[i1], bquote(underline(bar(.(dag$symbols[i1])))));
       } else
-      { text(dag$x[i1], dag$y[i1], bquote(C[.(i_c)]));
+      { if( (alt.symb==FALSE) || (is.na(dag$symbols[i1])) ) {
+          text(dag$x[i1], dag$y[i1], bquote(C[.(i_c)]));
+        } else text(dag$x[i1], dag$y[i1], bquote(.(dag$symbols[i1])));
       }
     }
   }
 
 # draw legend
-  if(legend==TRUE) dag.legend(dag);
+  if(legend==TRUE) dag.legend(dag, alt.symb = alt.symb);
 
 # write paths
-  if(paths==TRUE) write.paths(dag);
+  if(paths==TRUE) write.paths(dag, alt.symb = alt.symb);
   
 # drawing arcs or associations
   i2<-1;

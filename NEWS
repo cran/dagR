@@ -1,3 +1,15 @@
+2012-11-04
+* version 1.1.1 to 1.1.2
+* dag.draw
+- new option to allow NOT drawing the X->Y arc, or drawing it w/out "?"
+* changes to multiple functions to allow custom node symbols
+- no special formatting has been programmed, i.e. the string length is ignored
+- affected functions: dag.draw, dag.init, dag.legend, dag.letter, write.paths, summary_dagRdag
+* dag.letter
+- added note on adjustment marking by bar/underline (not for unknowns) in docu.
+* new function: demo.dag7
+- same as demo.dag3, but with alternative node symbols
+
 2010-06-14
 * version 1.0.1 to 1.1.1
 * removed empty sections from .Rd files
@@ -26,6 +38,5 @@ OPEN ISSUES
   of dag$arc strangely become lists instead of numeric
 * dag.letter
 - unknowns are not shown with adjustment marking
-- adjustment marking is not described in documentation
 * summary_dagRdag should become summary.dagRdag...
 * helper functions should go internal...

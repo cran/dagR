@@ -15,7 +15,7 @@ Draws a DAG conforming to the dagR format.
 }
 \usage{
 dag.draw(dag, legend = TRUE, paths = TRUE, numbering = FALSE,
- p = FALSE, ...)
+ p = FALSE, alt.symb = TRUE, noxy = 0, ...)
 }
 \arguments{
   \item{dag}{
@@ -32,6 +32,12 @@ Boolean indicating whether the arcs should be numbered in the DAG.
 }
   \item{p}{
 Boolean indicating whether the curving points of undirected associations should be drawn.
+}
+  \item{alt.symb}{
+Boolean indicating if the alternative node symbols (dag$symbols) should be used. Note that especially the legends and paths will not be formatted nicely if these symbols are longer strings.
+}
+  \item{noxy}{
+Integer to indicate if the X->Y should not be drawn (0=default; 1=no arc; 2=arc, but no question mark).
 }
   \item{\dots}{
 \emph{Currently not used.}

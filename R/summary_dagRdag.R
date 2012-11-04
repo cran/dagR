@@ -19,6 +19,10 @@ function(dag){
  if(length(dag$names)>2)
   for(i in 2:(length(dag$names)-1))
   cat(c("\n   - node ", i, " = ", dag$names[i]), sep="");
+
+ if(is.null(dag$symbols)==FALSE)
+ { cat(c("\n - alternative node symbols: ", dag$symbols));
+ }
  
 
  cat(c("\n - ", length(dag$arc.type), " arc(s) (",

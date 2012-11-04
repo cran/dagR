@@ -13,14 +13,14 @@ The package dagR (pronounce "dagger") contains a couple of functions to draw, ma
 \emph{Note: As spelled out in the license, this suite of functions comes without any warranty, and cautious use is strongly advised.
 Although testing was carried out as meticulously as possible, it must be expected that bugs or errors remain, in particular in the early versions of the package.
 Please report any problems, concerns, but also suggestions for improvements or extensions to the author.}\cr\cr
-Important additions in future versions could be e.g. drawing routines allowing full labels of nodes in the DAG and algorithms with intelligent/efficient search for minimal adjustment sets.
+Important additions in future versions could be e.g. improved drawing routines with better formatting of alternative node symbols in the DAG (taking into account the string length) and algorithms with intelligent/efficient search for minimal adjustment sets.
 }
 \details{
 \tabular{ll}{
 Package: \tab dagR\cr
 Type: \tab Package\cr
-Version: \tab 1.1.1\cr
-Date: \tab 2010-06-14\cr
+Version: \tab 1.1.2\cr
+Date: \tab 2012-11-04\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }

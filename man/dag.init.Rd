@@ -11,7 +11,7 @@ Allows setting up a new DAG.
 \usage{
 dag.init(outcome = NULL, exposure = NULL, covs = c(), arcs = c(),
  assocs = c(), xgap = 0.04, ygap = 0.05, len = 0.1, y.name = NULL,
- x.name = NULL, cov.names = c(), ...)
+ x.name = NULL, cov.names = c(), symbols = NULL, ...)
 }
 \arguments{
   \item{outcome}{
@@ -47,6 +47,9 @@ Label of exposure.
   \item{cov.names}{
 Vector of covariable labels.
 }
+  \item{symbols}{
+Vector of alternative node symbols. Longer symbols will not be formatted nicely. Note that the first element refers to the exposure, the following ones to the covariables, the last one to the outcome.
+}
   \item{\dots}{
 \emph{Currently not used.}
 }
@@ -60,6 +63,7 @@ A DAG (objects of class \code{dagRdag}). Check out some of the demonstration DAG
  \code{arc.type} (the \code{assocs} vector);
  \code{curve.x} and \code{curve.y} (if associations are featured, these provide the coordinates through which to curve);
  \code{xgap}, \code{ygap}, \code{len} (the respective drawing parameters);
+ \code{symbols} (alternative node symbols);
  \code{version} (dagR version).
 }
 \references{

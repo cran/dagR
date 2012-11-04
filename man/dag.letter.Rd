@@ -5,11 +5,12 @@
 Write a DAG node symbol.
 }
 \description{
-Writes the node symbols, 'X' and 'Y' for exposure and outcome, 'C' and 'U' (with consecutive subscripts) for known and unknown covariables.
+Writes the node symbols, 'X' and 'Y' for exposure and outcome, 'C' and 'U' (with consecutive subscripts) for known and unknown covariables. Since v1.1.2, alt.symb allows the use of custom node symbols.
  Unknownness is identified by either node name 'unknown' or covariable type '2' in the DAG object.
+ Note that adjusted nodes are marked by bar and underline; this currently does not apply to those marked as unknown.
 }
 \usage{
-dag.letter(dag, letter, x, y)
+dag.letter(dag, letter, x, y, alt.symb = TRUE)
 }
 \arguments{
   \item{dag}{
@@ -23,6 +24,9 @@ X position.
 }
   \item{y}{
 Y position.
+}
+  \item{alt.symb}{
+Boolean indicating if custom symbols (dag$symbols) should be used if available.
 }
 }
 \author{

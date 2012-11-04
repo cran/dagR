@@ -8,7 +8,7 @@ Write the legend in a DAG drawing.
 Lists the DAG symbols along with their names/labels below a DAG drawn.
 }
 \usage{
-dag.legend(dag, lx = -0.15, ly = -0.075)
+dag.legend(dag, lx = -0.15, ly = -0.075, alt.symb = TRUE)
 }
 \arguments{
   \item{dag}{
@@ -19,6 +19,9 @@ X coordinate for repositioning legend.
 }
   \item{ly}{
 Y coordinate for repositioning legend.
+}
+  \item{alt.symb}{
+Boolean indicating if the alternative node symbols (dag$symbols) should be used. Note that the formatting is not changed, i.e. longer symbols will not be formatted nicely.
 }
 }
 \author{
