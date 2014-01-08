@@ -19,14 +19,16 @@ Important additions in future versions could be e.g. improved drawing routines w
 \tabular{ll}{
 Package: \tab dagR\cr
 Type: \tab Package\cr
-Version: \tab 1.1.2\cr
-Date: \tab 2012-11-04\cr
+Version: \tab 1.1.3\cr
+Date: \tab 2014-01-08\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
 \code{\link{dag.init}} is used for setting up DAGs. See the code of the functions \code{demo.dag0} to \code{demo.dag6} for example code.
  To adjust and/or evalute DAGs for biasing paths, use \code{\link{dag.adjust}}, \code{\link{dag.draw}} for drawing a DAG.
  \code{\link{dag.search}} uses \code{\link{brute.search}} to evaluate all possible adjustment sets, allowing the identification of minimal sufficient adjustment sets using \code{\link{msas}}.
+ \code{\link{dag.sim}} simulates data (normally distributed or binary) according to
+ the causal structure given by a DAG object (Breitling (submitted)). 
  At present, \code{summary_dagRdag} can summarize a DAG object. This should later become an S3 method.\cr Several helper functions currently are not hidden and should later be made internal.
  \cr \cr \emph{Please see the NEWS file for version changes and known open issues.}
 }
@@ -35,6 +37,8 @@ Lutz P Breitling <lutz.breitling@gmail.com>
 }
 \references{
 Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP (submitted). Understanding confounding and data analytical strategies
+through DAG-based data simulations.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
 }
 \keyword{ package }

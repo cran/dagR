@@ -1,6 +1,6 @@
-3fff555a51b0fe5efe1604cfcaba07cb *DESCRIPTION
+75a3d30cd1dc13cb92d10b92c5acf9c9 *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-bac1fdc39d0e4ab54421f324b162fd79 *NEWS
+413aa93b9918a97616334d7364820b07 *NEWS
 93a68660d9aaf402d766277525736d00 *R/add.arc.R
 94ae6cefdee02ae7e1ced283c85abf17 *R/add.node.R
 e17b78b9c4da737f1b81850b7c8db9d5 *R/addAngle.R
@@ -18,6 +18,7 @@ e7672ae361bf23365f0d01b5c43e8ca9 *R/dag.legend.R
 56787a1dedae29ae4cab1dcfd134bd5a *R/dag.letter.R
 2d6d7807dfc26104f4e6eb923db538df *R/dag.move.R
 2874d3ea7dcbf06e855c4155c50071ad *R/dag.search.R
+3abece508d769c57893eba3555d28fda *R/dag.sim.R
 ec6bfeef67413a744723412d27f2c9db *R/demo.dag0.R
 9905090d506a28cadde3ca90dfd9fcb2 *R/demo.dag1.R
 d926d320699c4faa6e2ebfbcdb2de451 *R/demo.dag2.R
@@ -58,7 +59,8 @@ becad2985de22c36f09ad0fa14dada26 *man/dag.ancestors.Rd
 665ef41c5b918df6fb73ad8f46f72d4e *man/dag.letter.Rd
 c957113eb4a7ba765c09ea49fe99bc5b *man/dag.move.Rd
 b533262522f9cc5197d795af8498746e *man/dag.search.Rd
-965ac5299634cda201701a8fea5fb54b *man/dagR-package.Rd
+456e738385717157ed5d1f6f4ec49e38 *man/dag.sim.Rd
+5cf1541913e0c25544884a6e9aa47177 *man/dagR-package.Rd
 3d84a71b9d6a874dc050d85aa8d21226 *man/demo.dag0.Rd
 f75e3a98f8691ffca0c36befc50aa1c5 *man/demo.dag1.Rd
 a97f5d1276b539a9dee000042f7e0100 *man/demo.dag2.Rd
