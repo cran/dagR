@@ -88,28 +88,28 @@ function(dag, legend=TRUE, paths=TRUE, numbering=FALSE, p=FALSE, alt.symb=TRUE, 
   while (i2 <= length(dag$arc[,1]))
   {
     if(dag$arc.type[i2]==0)
-    { garrows(dag$x[dag$arc[i2,1]], dag$y[dag$arc[i2,1]], dag$x[dag$arc[i2,2]], dag$y[dag$arc[i2,2]], dag$xgap, dag$ygap, dag$len);
+    { garrows(dag$x[dag$arc[[i2,1]]], dag$y[dag$arc[[i2,1]]], dag$x[dag$arc[[i2,2]]], dag$y[dag$arc[[i2,2]]], dag$xgap, dag$ygap, dag$len);
     } else if(dag$arc.type[i2]==1)
     {
       if(is.na(dag$curve.x[i2])==TRUE)
-      { x0<-dag$x[dag$arc[i2,1]]; y0<-dag$y[dag$arc[i2,1]];
-        x1<-dag$x[dag$arc[i2,2]]; y1<-dag$y[dag$arc[i2,2]];
+      { x0<-dag$x[dag$arc[[i2,1]]]; y0<-dag$y[dag$arc[[i2,1]]];
+        x1<-dag$x[dag$arc[[i2,2]]]; y1<-dag$y[dag$arc[[i2,2]]];
         dag$curve.x[i2]<- -(y1-y0)/15+(x0+x1)/2;
         dag$curve.y[i2]<-  (x1-x0)/15+(y0+y1)/2;
       }
-      smoothArc(A=c(dag$x[dag$arc[i2,1]], dag$y[dag$arc[i2,1]]),
-                B=c(dag$x[dag$arc[i2,2]], dag$y[dag$arc[i2,2]]),
+      smoothArc(A=c(dag$x[dag$arc[[i2,1]]], dag$y[dag$arc[[i2,1]]]),
+                B=c(dag$x[dag$arc[[i2,2]]], dag$y[dag$arc[[i2,2]]]),
                 C=c(dag$curve.x[i2], dag$curve.y[i2]),
                 gap=max(dag$xgap, dag$ygap), p=p); 
     }
     if(numbering==TRUE)
     { if(dag$arc.type[i2]!=1)
-      { text(0.5*(dag$x[dag$arc[i2,1]]+dag$x[dag$arc[i2,2]]),
-             0.5*(dag$y[dag$arc[i2,1]]+dag$y[dag$arc[i2,2]]),
+      { text(0.5*(dag$x[dag$arc[[i2,1]]]+dag$x[dag$arc[[i2,2]]]),
+             0.5*(dag$y[dag$arc[[i2,1]]]+dag$y[dag$arc[[i2,2]]]),
              i2);
       } else
-      { text(0.5*(dag$x[dag$arc[i2,1]]+dag$curve.x[i2]),
-             0.5*(dag$y[dag$arc[i2,1]]+dag$curve.y[i2]),
+      { text(0.5*(dag$x[dag$arc[[i2,1]]]+dag$curve.x[i2]),
+             0.5*(dag$y[dag$arc[[i2,1]]]+dag$curve.y[i2]),
              i2);
       }
     }
