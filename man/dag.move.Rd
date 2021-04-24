@@ -22,7 +22,7 @@ The DAG to be modified.
 The same DAG, but with the feature repositioned.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

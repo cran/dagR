@@ -23,7 +23,7 @@ A DAG with the node specified removed, along with the corresponding attributes a
  \cr Note: Search components (\code{searchType}, \code{searchRes}) of the DAG currently are generally set to NULL, even if no path is removed. This is for simplicity, because the node numbers would need to be changed eg. in the \code{searchRes} variables etc.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

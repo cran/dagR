@@ -30,7 +30,7 @@ See \code{\link{brute.search}}.
 The DAG with components \code{searchType} and \code{searchRes} added.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 \seealso{

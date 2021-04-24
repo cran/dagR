@@ -31,7 +31,7 @@ A DAG with the adjustment set A, and possibly with additional
 If adjustment set is not empty, \code{searchType} and \code{searchRes} are set to \code{NULL}.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 CAVE: Do not apply this to an already adjusted DAG, since

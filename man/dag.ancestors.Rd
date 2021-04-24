@@ -24,7 +24,7 @@ A vector indicating which nodes are ancestors of those in A.
  Note that A actually is included at the beginning of the vector.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

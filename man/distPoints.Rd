@@ -22,7 +22,7 @@ Vector of length two, indicating x and y of second point.
 Distance between the two points.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

@@ -5,7 +5,7 @@
 Draw a DAG.
 }
 \description{
-Draws a DAG conforming to the dagR format.
+Draws a DAG defined in an object of class dagRdag (as of dagR version 1.2.0, the generic function plot.dagRdag can be used for this purpose, but dag.draw is maintained for backwards compatibility).
  The nodes are represented by 'C' (covariables; numbered with subscripts) and 'U' (unknown/unmeasured covariables; numbered with subscripts), 'X' and 'Y' (exposure and outcome, respectively).
  A legend presents the names of the nodes.
  The X->Y arc is marked with a questionmark as the relationship of interest.
@@ -51,7 +51,7 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 
@@ -61,6 +61,6 @@ Lutz P Breitling <lutz.breitling@gmail.com>
  \code{\link{write.paths}}
 }
 \examples{
-dag.draw(demo.dag1());
-dag.draw(dag.adjust(demo.dag1(), 3), numbering=TRUE, p=TRUE);
+plot(demo.dag1());
+plot(dag.adjust(demo.dag1(), 3), numbering=TRUE, p=TRUE);
 }

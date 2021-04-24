@@ -22,7 +22,7 @@ Radian angle 2.
 Numeric in range from -pi to pi.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

@@ -23,7 +23,7 @@ Angle 2 in radian.
 numeric value [0, 2*pi).
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

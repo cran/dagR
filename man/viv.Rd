@@ -25,7 +25,7 @@ If a value occurs more than once in v1, it is counted as contained in v2 if it a
 TRUE if v1 occurs in v2, FALSE otherwise.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \seealso{
 \code{\link{msas}}

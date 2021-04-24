@@ -35,7 +35,7 @@ If TRUE, the point through which the curve goes is drawn (this is to allow bette
 Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 In the version 1.0.1 distributed as online supplemental material with Breitling (2010), the function contains arbitrary default values used during development.

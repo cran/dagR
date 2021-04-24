@@ -24,7 +24,7 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

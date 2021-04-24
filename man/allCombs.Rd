@@ -29,7 +29,7 @@ A matrix with one combination per row. For the shorter combinations,
  the columns to the right are filled up with NA.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

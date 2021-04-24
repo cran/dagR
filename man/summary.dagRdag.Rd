@@ -1,21 +1,24 @@
-\name{summary_dagRdag}
-\alias{summary_dagRdag}
+\name{summary.dagRdag}
+\alias{summary.dagRdag}
 \title{
 Summarize a DAG.
 }
 \description{
-Generic function \code{summary()} working code for class \code{dagRdag}, which is used by package \code{dagR} from version 1.1.1 on. From version 1.2.0, \code{summary.dagRdag()} is available as a generic function, but summary_dagRdag is preserved for backwards compatibility.
+Generic function \code{summary()} for class \code{dagRdag}.
 }
 \usage{
-summary_dagRdag(dag)
+\method{summary}{dagRdag}(object, ...)
 }
 \arguments{
-  \item{dag}{
-An object of class \code{dagRdag}.
+  \item{object}{
+An object of class \code{dagRdag}.}
+  \item{...}{
+Currently not used.
 }
 }
 \details{
-Summarizes according to what functions have been applied to the DAG. It does not itself call \code{dag.search} and the like. Exception: is calls \code{is.acyclic} (with \code{maxSecs=5}).
+Summarizes according to what functions have been applied to the DAG. It does not itself call \code{dag.search} and the like. Exception: is calls \code{is.acyclic} (with \code{maxSecs=5}).\cr
+This function passes the \code{object} to \code{summary_dagRdag}, which is preserved for backwards compatibility.
 }
 \references{
 Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.

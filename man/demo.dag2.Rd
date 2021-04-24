@@ -20,7 +20,7 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
 Shrier I, Platt RW (2008). Reducing bias through directed acyclic graphs. BMC Med Res Methodol 8:70
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

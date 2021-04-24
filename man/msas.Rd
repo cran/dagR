@@ -23,7 +23,7 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
  \cr Kn\"uppel S, Stang A (2010). DAG Program: identifying minimal sufficient adjustment sets. Epidemiology 21(1):159.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 \seealso{

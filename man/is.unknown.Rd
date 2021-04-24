@@ -22,7 +22,7 @@ The DAG to be evaluated.
 TRUE if unknown (acc. to type or name), FALSE otherwise.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

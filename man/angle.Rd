@@ -23,7 +23,7 @@ Vector of length two indicating the coordinates of the second point.
 A numeric value [0, 2*pi).
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 \seealso{

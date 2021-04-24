@@ -29,7 +29,7 @@ A DAG with the arc (and corresponding \code{arc.type}) added, and with the
  path-related variables (\code{paths}, \code{pathsN}, \code{path.status}, \code{searchType}, \code{searchRes}) removed.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

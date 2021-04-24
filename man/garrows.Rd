@@ -34,7 +34,7 @@ Length of arrow whiskers (default=0.1).
 }
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

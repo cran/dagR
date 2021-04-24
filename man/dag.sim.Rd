@@ -68,10 +68,10 @@ Undirected arcs are ignored in these simulations!
 }
 
 \references{
-Breitling LP (submitted). Understanding confounding and data analytical strategies through DAG-based data simulations.
+Breitling LP, Duan C, Dragomir AD, Luta G. Using dagR to identify minimal sufficient adjustment sets and to simulate data based on directed acyclic graphs. Int J Epidemiol (under revision)
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

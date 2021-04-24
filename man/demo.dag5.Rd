@@ -15,7 +15,7 @@ demo.dag5()
 Returns a DAG.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

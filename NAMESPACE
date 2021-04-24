@@ -3,3 +3,12 @@
 
 # Export all names
 exportPattern(".")
+
+S3method(summary, dagRdag)
+S3method(print, dagRdag)
+S3method(plot, dagRdag)
+
+importFrom("graphics", "arrows", "identify", "locator", "plot",
+           "points", "text")
+importFrom("stats", "na.omit", "rbinom", "rnorm")
+importFrom("utils", "combn", "installed.packages")

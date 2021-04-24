@@ -20,7 +20,7 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
 Fleischer NL, Diez Roux AV (2008). Using directed acyclic graphs to guide analyses of neighbourhood health effects: an introduction. J Epidemiol Community Health 62:842-846.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

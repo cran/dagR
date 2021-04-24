@@ -1,3 +1,8 @@
+2021-04-24
+* version 1.1.3 to 1.2.0
+- added generic print, plot, and summary functions
+- added a function to create dagitty syntax from a dagR DAG
+
 2014-01-08
 * version 1.1.2 to 1.1.3
 * dag.sim
@@ -42,5 +47,6 @@ OPEN ISSUES
   of dag$arc strangely become lists instead of numeric
 * dag.letter
 - unknowns are not shown with adjustment marking
-* summary_dagRdag should become summary.dagRdag...
 * helper functions should go internal...
+* more recently, better algorithms used to identify open backdoor
+  paths have been published and should be implemented in dagR

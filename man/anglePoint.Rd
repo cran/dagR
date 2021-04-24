@@ -28,7 +28,7 @@ The distance at which the new point is situated from the source point.
 A vector of length two with the coordinates of the new point.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 Another pretty superfluous helper function...

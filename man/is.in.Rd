@@ -23,7 +23,7 @@ A vector of numeric values.
 Boolean; TRUE if value is present, FALSE if not.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

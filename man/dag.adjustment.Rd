@@ -33,7 +33,7 @@ A DAG with A as the adjustment set and the associations introduced by
  adjustment for A added to the DAG.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 You should \emph{not} use \code{dag.adjustment} on an already adjusted

@@ -36,7 +36,7 @@ A dataframe with the first columns (\code{X1..Xn}) indicating the variables in t
  and \code{openPaths} indicates the number of biasing paths.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 The output produced by \code{brute.search} allows to manually identify

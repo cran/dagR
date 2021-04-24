@@ -38,7 +38,7 @@ If no x and y coordinates are provided, the function places the node
 A DAG with the new node added.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 

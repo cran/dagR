@@ -22,7 +22,7 @@ A single integer, indicating which arc is to be removed (refering to the respect
 A DAG with the arc specified removed along with the corresponding attributes like arc types, curves, and path evaluation variables.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 \note{
 The numbering of the arcs can be visualized by applying \code{dag.draw} with the option "numbering=TRUE".

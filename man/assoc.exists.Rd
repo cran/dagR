@@ -28,7 +28,7 @@ A boolean indicating whether or not an association between first node
  and second node already exists.
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 \examples{

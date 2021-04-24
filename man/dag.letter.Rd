@@ -30,7 +30,7 @@ Boolean indicating if custom symbols (dag$symbols) should be used if available.
 }
 }
 \author{
-Lutz P Breitling <lutz.breitling@gmail.com>
+Lutz P Breitling <l.breitling@posteo.de>
 }
 
 
