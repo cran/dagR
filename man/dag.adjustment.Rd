@@ -50,10 +50,6 @@ You should \emph{not} use \code{dag.adjustment} on an already adjusted
 \code{\link{dag.adjust}}, \code{\link{find.paths}},
  \code{\link{eval.paths}}
 }
-\examples{
-dag1<-demo.dag1();
-dag.draw(dag.adjust(dag1, 3));
-dag.draw(dag.adjust(dag1, 2));
-# problem when adjusting an adjusted DAG:
-dag.draw(dag.adjust(dag.adjust(dag1, 3), c(2)));
-}
+
+
+

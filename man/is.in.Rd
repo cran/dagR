@@ -30,7 +30,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{eval.paths}}
 }
-\examples{
-is.in(4, 1:3)==TRUE;
-is.in(4, 1:5)==TRUE;
-}
+
+

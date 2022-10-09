@@ -31,12 +31,4 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.adjust}}, \code{\link{dag.adjustment}}
 }
-\examples{
-dag6<-demo.dag6();
-dag.draw(dag6);
-dag.ancestors(dag6,4);
-dag.ancestors(dag6,3);
-dag.ancestors(dag6,2);
-dag.ancestors(dag6,1);
-dag.ancestors(dag6,7);
-}
+

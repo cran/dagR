@@ -29,9 +29,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{smoothArc}}
 }
-\examples{
-inAngle(pi, pi);
-inAngle(pi,-0.5*pi)/pi;
-inAngle(pi, 0.5*pi)/pi;
-inAngle(pi, 2.5*pi)/pi;
-}
+
+

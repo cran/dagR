@@ -1,17 +1,16 @@
 Package: dagR
 Type: Package
-Title: R Functions for Directed Acyclic Graphs
-Version: 1.2.0
-Date: 2021-04-17
+Title: Directed Acyclic Graphs: Analysis and Data Simulation
+Version: 1.2.1
+Date: 2022-10-08
 Author: Lutz P Breitling
 Maintainer: Lutz P Breitling <l.breitling@posteo.de>
-Description: Functions to draw, manipulate, evaluate directed
-        acyclic graphs and simulate corresponding data.
+Description: Draw, manipulate, and evaluate directed
+        acyclic graphs and simulate corresponding data, as described in International Journal of Epidemiology 50(6):1772-1777.
 Imports: graphics, stats, utils
 Suggests: dagitty(>= 0.3-1)
 License: GPL-2
-LazyLoad: yes
-Repository: CRAN
-Packaged: 2021-04-24 08:29:49 UTC; lpb
 NeedsCompilation: no
-Date/Publication: 2021-04-24 11:30:20 UTC
+Packaged: 2022-10-09 09:00:17 UTC; lpb
+Repository: CRAN
+Date/Publication: 2022-10-09 09:20:02 UTC

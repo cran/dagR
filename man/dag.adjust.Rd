@@ -5,7 +5,7 @@
 Adjust an existing DAG for covariables.
 }
 \description{
-The function looks for associations introduced by adjusting for
+Looks for associations introduced by adjusting for
  the covariables specified, then looks for biasing paths, and
  finally evaluates these paths.
 }
@@ -30,6 +30,12 @@ A DAG with the adjustment set A, and possibly with additional
  and the status of these.\cr
 If adjustment set is not empty, \code{searchType} and \code{searchRes} are set to \code{NULL}.
 }
+\references{
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and
+to simulate data based on directed acyclic graphs. Int J Epidemiol 50(6):1772-1777.\cr
+Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
+}
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
 }
@@ -44,8 +50,5 @@ CAVE: Do not apply this to an already adjusted DAG, since
 \code{\link{dag.adjustment}}, \code{\link{find.paths}},
  \code{\link{eval.paths}}
 }
-\examples{
-demo.dag1();
-dag.adjust(demo.dag1());
-dag.adjust(demo.dag1(), A=3);
-}
+
+

@@ -1,13 +1,12 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
 # Export all names
 exportPattern(".")
 
+# define S3 methods
 S3method(summary, dagRdag)
 S3method(print, dagRdag)
 S3method(plot, dagRdag)
 
+# import functions from other packages
 importFrom("graphics", "arrows", "identify", "locator", "plot",
            "points", "text")
 importFrom("stats", "na.omit", "rbinom", "rnorm")

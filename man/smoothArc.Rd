@@ -45,10 +45,4 @@ In the version 1.0.1 distributed as online supplemental material with Breitling 
 \seealso{
 \code{\link{dag.draw}}, \code{\link{dag.move}}
 }
-\examples{
-dag.draw(demo.dag1());
-smoothArc(c(0.5,0.5), c(1,1), c(0.75,0.6), p=TRUE);
-smoothArc(c(0.5,0.5), c(1,1), c(0.65,0.6), p=TRUE);
-smoothArc(c(0.5,0.5), c(1,1), c(0.55,0.6), p=TRUE);
-smoothArc(c(0.5,0.5), c(1,1), c(0.45,0.6), p=TRUE);
-}
+

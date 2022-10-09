@@ -27,9 +27,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{demo.dag3}
 }
-\examples{
-dag7<-demo.dag7();
-summary_dagRdag(dag7);
-dag.draw(dag7, legend=FALSE);
-dag.draw(dag7, alt.symb=FALSE);
-}
+
+

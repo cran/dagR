@@ -49,7 +49,3 @@ The output produced by \code{brute.search} allows to manually identify
 }
 
 
-\examples{
-bs<-brute.search(demo.dag1(), trace=FALSE);
-bs;
-}

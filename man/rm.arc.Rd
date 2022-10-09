@@ -5,7 +5,7 @@
 Remove an arc from a DAG.
 }
 \description{
-Function to conveniently remove an arc from an existing DAG.
+Conveniently remove an arc from an existing DAG.
 }
 \usage{
 rm.arc(dag, arc)
@@ -32,8 +32,5 @@ The numbering of the arcs can be visualized by applying \code{dag.draw} with the
 \seealso{
 \code{\link{add.arc}}, \code{\link{add.node}}, \code{\link{rm.node}}
 }
-\examples{
-dag1<-demo.dag1();
-dag1$arc;
-dag1rma<-rm.arc(dag1, 2);
-}
+
+

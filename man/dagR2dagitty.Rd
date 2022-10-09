@@ -34,7 +34,10 @@ Either a string containing dagitty syntax to translate the dagR DAG
 into dagitty format, or a dagitty object.
 }
 \references{
-https://cran.r-project.org/web/packages/dagitty/index.html
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and
+to simulate data based on directed acyclic graphs. Int J Epidemiol 50(6):1772-1777.\cr
+\url{https://cran.r-project.org/package=dagitty}
 }
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
@@ -43,16 +46,4 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.letter2}}
 }
-\examples{
-ex2<-dag.adjust(demo.dag4(),3);
-plot(ex2);
-dd2<-dagR2dagitty(ex2);
-class(dd2);
-dd2;
 
-\dontrun{
-dd2<-dagR2dagitty(ex2, only.code=FALSE);
-class(dd2);
-plot(dd2);
-}
-}

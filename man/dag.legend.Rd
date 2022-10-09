@@ -32,7 +32,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.draw}}, \code{\link{write.paths}}
 }
-\examples{
-dag.draw(demo.dag1(), legend=FALSE);
-dag.legend(demo.dag1(), lx=0.2, ly=0.01);
-}
+
+

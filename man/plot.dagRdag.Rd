@@ -30,7 +30,9 @@ For all available arguments, see documentation of \code{dag.draw}.
 The DAG object is returned.
 }
 \references{
-Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and
+to simulate data based on directed acyclic graphs. Int J Epidemiol 50(6):1772-1777.\cr
 }
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
@@ -39,7 +41,4 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.draw}}
 }
-\examples{
-plot(demo.dag1());
-plot(demo.dag3(), legend=FALSE);
-}
+

@@ -26,14 +26,4 @@ Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. E
 Lutz P Breitling <l.breitling@posteo.de>
 }
 
-\examples{
-d3<-demo.dag3();
-d3s<-dag.search(d3);
-d3a<-dag.adjust(d3, 2);
-d3as<-dag.search(d3a);
 
-summary(d3);
-summary(d3s);
-summary(d3a);
-summary(d3as);
-}

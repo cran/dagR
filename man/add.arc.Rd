@@ -5,7 +5,7 @@
 Add an arc to a DAG.
 }
 \description{
-Function to conveniently add an arc to an existing DAG.
+Conveniently add an arc to an existing DAG.
 }
 \usage{
 add.arc(dag, arc, type = 0)
@@ -36,7 +36,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{rm.arc}}, \code{\link{add.node}}, \code{\link{rm.node}}
 }
-\examples{
-dag1<-demo.dag1();
-dag1b<-add.arc(dag1, arc=c(2,4));
-}
+
+

@@ -5,7 +5,7 @@
 Remove a node from a DAG.
 }
 \description{
-Function to conveniently remove a node from an existing DAG.
+Conveniently remove a node from an existing DAG.
 }
 \usage{
 rm.node(dag, node)
@@ -30,7 +30,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{add.node}}, \code{\link{rm.arc}}, \code{\link{add.arc}}
 }
-\examples{
-dag1a<-dag.adjust(demo.dag1());
-dag1armn<-rm.node(dag1a, 3);
-}
+
+

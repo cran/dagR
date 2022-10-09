@@ -26,8 +26,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 }
 
 
-\examples{
-dp<-distPoints(c(0,0), c(1,1));
-dp;
-dp^2;
-}
+
+

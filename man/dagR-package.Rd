@@ -4,12 +4,14 @@
 \alias{dagR}
 \docType{package}
 \title{
-R functions for directed acyclic graphs
+Directed Acyclic Graphs: Analysis and Data Simulation
 }
 \description{
 The package dagR contains a couple of functions to draw, manipulate and evaluate directed acyclic graphs (DAG), with a focus on epidemiologic applications, namely the assessment of adjustment sets and potentially biasing paths.
  The functions for finding and evaluating paths essentially implement the graphical algorithms outlined in Greenland (1999).\cr\cr
- When using this package for your work, please cite Breitling (2010).\cr\cr
+ When using this package for your work, please cite Breitling (2010) and/or Breitling et al. (2022).\cr\cr
+ For motivations to use this package in epidemiology teaching and methodological research, please refer
+ to Duan et al. (2022).\cr\cr
 \emph{Note: As spelled out in the license, this suite of functions comes without any warranty, and cautious use is strongly advised.
 Although testing was carried out as meticulously as possible, it must be expected that bugs or errors remain, in particular in the early versions of the package.
 Please report any problems, concerns, but also suggestions for improvements or extensions to the author.}\cr\cr
@@ -19,8 +21,8 @@ Important additions in future versions could be e.g. improved drawing routines w
 \tabular{ll}{
 Package: \tab dagR\cr
 Type: \tab Package\cr
-Version: \tab 1.2.0\cr
-Date: \tab 2021-04-17\cr
+Version: \tab 1.2.1\cr
+Date: \tab 2022-10-09\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
@@ -37,16 +39,10 @@ Lutz P Breitling <l.breitling@posteo.de>
 }
 \references{
 Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
-Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and to simulate data based on directed acyclic graphs. Int J Epidemiol  50(6):1772-1777 <\doi{10.1093/ije/dyab167}>.\cr
+Duan C, Dragomir AD, Luta G, Breitling LP (2022). Reflection on modern methods: Understanding bias and data analytical strategies through DAG-based data simulations. Int J Epidemiol 50(6):2091-2097 <\doi{10.1093/ije/dyab096}>.\cr
+Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
 }
 \keyword{ package }
-\examples{
-dag1<-demo.dag1();
-plot(dag1);
-dag1a<-dag.adjust(dag1, 3);
-plot(dag1a);
-dag1s<-dag.search(dag1);
-summary(dag1);
-summary(dag1a);
-summary(dag1s);
-}
+
+

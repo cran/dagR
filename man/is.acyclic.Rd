@@ -27,9 +27,5 @@ A list with two elements.
 Lutz P Breitling <l.breitling@posteo.de>
 }
 
-\examples{
-dag6<-demo.dag6();
-is.acyclic(dag6);
-dag6c<-add.arc(dag6, c(3,5));
-is.acyclic(dag6c);
-}
+
+

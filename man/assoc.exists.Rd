@@ -31,8 +31,5 @@ A boolean indicating whether or not an association between first node
 Lutz P Breitling <l.breitling@posteo.de>
 }
 
-\examples{
-dag1a<-dag.adjust(demo.dag1(), A=3);
-assoc.exists(dag1a, 2, 4);
-assoc.exists(dag1a, 2, 5);
-}
+
+

@@ -36,8 +36,4 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{brute.search}}
 }
-\examples{
-d3<-demo.dag3();
-d3s<-dag.search(d3);
-d3s;
-}
+

@@ -41,9 +41,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.draw}}, \code{\link{smoothArc}}
 }
-\examples{
-dag.draw(demo.dag1());
-garrows(0,0, 0.5, 0.5, xgap=0.1, ygap=0.1, len=0.1);
-garrows(0,0, 0.5, 0.6, xgap=0.1, ygap=0.1, len=0.3);
-garrows(0,0, 0.5, 0.6, xgap=0.01, ygap=0.1, len=0.3);
-}
+
+

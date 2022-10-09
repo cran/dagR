@@ -30,11 +30,3 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{msas}}
 }
-\examples{
-v1<-c(NA,NA,NA)
-v2<-c(1,NA,NA)
-v3<-c(1,1,1)
-viv(v1,v2)
-viv(v2,v3)
-viv(v2,v1)
-}

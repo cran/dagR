@@ -81,9 +81,7 @@ CAVE: The numbering of the covariables and arc coordinates is different here tha
 \seealso{
 \code{\link{dag.draw}}
 }
+
 \examples{
-demo.dag1;
-demo.dag1();
-demo.dag2;
-demo.dag2();
+#dag.init(covs = c(1, 1), arcs = c(0, 2, 1, 2, 1, 0, -1, 2))
 }

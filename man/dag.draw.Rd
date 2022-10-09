@@ -48,6 +48,8 @@ Returns the DAG (for whatever reason...).
 }
 \references{
 Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and
+to simulate data based on directed acyclic graphs. Int J Epidemiol 50(6):1772-1777.\cr
 Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
 }
 \author{
@@ -60,7 +62,5 @@ Lutz P Breitling <l.breitling@posteo.de>
  \code{\link{smoothArc}}, \code{\link{dag.legend}},
  \code{\link{write.paths}}
 }
-\examples{
-plot(demo.dag1());
-plot(dag.adjust(demo.dag1(), 3), numbering=TRUE, p=TRUE);
-}
+
+

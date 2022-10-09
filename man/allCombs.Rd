@@ -36,6 +36,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{brute.search}}
 }
-\examples{
-allCombs(1:4, force=3);
-}
+
+

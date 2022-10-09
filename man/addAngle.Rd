@@ -30,7 +30,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{smoothArc}}
 }
-\examples{
-addAngle(0.5*pi, pi);
-addAngle(1.5*pi, pi);
-}
+
+

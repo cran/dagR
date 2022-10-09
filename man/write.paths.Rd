@@ -5,7 +5,7 @@
 Write the paths into a DAG drawing.
 }
 \description{
-This function writes the paths into a DAG drawing, using the symbols ('C', 'U', 'X', 'Y') used in the drawing, indicating directed arcs by '<' and '>', undirected ones by '-'. Since version 1.1.2, alt.symb allow usage of custom node symbols, though multi-character symbols will not be formatted well.
+Writes the paths into a DAG drawing, using the symbols ('C', 'U', 'X', 'Y') used in the drawing, indicating directed arcs by '<' and '>', undirected ones by '-'. Since version 1.1.2, alt.symb allow usage of custom node symbols, though multi-character symbols will not be formatted well.
  Adjusted variables are under- and over-lined.
  If the paths have been evaluated using \code{eval.paths}, the status are also written.
 }
@@ -35,9 +35,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \code{\link{dag.draw}}, \code{\link{find.paths}},
  \code{\link{eval.paths}}, \code{\link{dag.legend}}
 }
-\examples{
-dag1<-demo.dag1();
-dag.draw(dag1);
-dag1a<-dag.adjust(dag1);
-write.paths(dag1a);
-}
+
+

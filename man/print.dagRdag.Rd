@@ -20,9 +20,3 @@ Other arguments passed to the print routine.
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
 }
-
-\examples{
-d3<-demo.dag3();
-print(d3);
-summary(d3);
-}

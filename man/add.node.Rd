@@ -45,7 +45,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{rm.node}}, \code{\link{add.arc}}, \code{\link{rm.arc}}
 }
-\examples{
-dag1<-demo.dag1();
-dag1a<-add.node(dag1);
-}
+
+

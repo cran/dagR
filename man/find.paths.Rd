@@ -31,7 +31,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{dag.adjust}}, \code{\link{eval.paths}}
 }
-\examples{
-demo.dag1();
-find.paths(demo.dag1());
-}
+
+

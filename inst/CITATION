@@ -1,0 +1,11 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+bibentry(bibtype = "Article",
+title = "Using dagR to identify minimal sufficient adjustment sets and to simulate data based on directed acyclic graphs",
+journal = "International Journal of Epidemiology",
+author = c(person("Lutz P.", "Breitling"),
+person("Chongyang", "Duan"),
+person("Anca D.", "Dragomir"),
+person("George", "Luta")),
+year = "2022",
+doi = "10.1093/ije/dyab167")

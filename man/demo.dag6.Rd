@@ -23,7 +23,4 @@ Lutz P Breitling <l.breitling@posteo.de>
 \code{demo.dag0}, \code{demo.dag1}, \code{demo.dag2},
  \code{demo.dag3}, \code{demo.dag4}, \code{demo.dag5}
 }
-\examples{
-demo.dag6();
-x6<-dag.adjust(demo.dag6(), A=3);
-}
+

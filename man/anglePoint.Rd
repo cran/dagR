@@ -5,7 +5,7 @@
 Calculate coordinates at specific angle and distance.
 }
 \description{
-A function calculating the coordinates of the point that is at
+Calculates the coordinates of the point that is at
  a specific radian angle in a specific distance from a source point.
  Internally called by \code{smoothArc}.
 }
@@ -38,9 +38,5 @@ Another pretty superfluous helper function...
 \seealso{
 \code{\link{smoothArc}}
 }
-\examples{
-round(anglePoint(c(0,0),      0, 0.5), 2);
-round(anglePoint(c(0,0),   pi/2, 0.5), 2);
-round(anglePoint(c(0,0),     pi, 0.5), 2);
-round(anglePoint(c(0,0), 1.5*pi, 0.5), 2);
-}
+
+

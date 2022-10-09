@@ -29,13 +29,5 @@ Lutz P Breitling <l.breitling@posteo.de>
 \seealso{
 \code{\link{smoothArc}}, \code{\link{addAngle}}
 }
-\examples{
-angle(c(0,0), c( 0,-1)) /pi;
-angle(c(0,0), c(-1,-1)) /pi;
-angle(c(0,0), c(-1, 0)) /pi;
-angle(c(0,0), c(-1, 1)) /pi;
-angle(c(0,0), c( 0, 1)) /pi;
-angle(c(0,0), c( 1, 1)) /pi;
-angle(c(0,0), c( 1, 0)) /pi;
-angle(c(0,0), c( 1,-1)) /pi;
-}
+
+

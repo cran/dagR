@@ -1,5 +1,6 @@
 \name{msas}
 \alias{msas}
+\encoding{UTF-8}
 \title{
 Identify minimal sufficient adjustment sets.
 }
@@ -18,21 +19,18 @@ The \code{searchRes} component of a DAG (or the output of \code{brute.search}, w
 A vector containing a \code{-1} for each insufficient adjustment set, and for sufficient ones the number of smaller sufficient ones contained in it. 
 }
 \references{
-Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.
- \cr Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic reserach. Epidemiology 10(1):37-48.
- \cr Kn\"uppel S, Stang A (2010). DAG Program: identifying minimal sufficient adjustment sets. Epidemiology 21(1):159.
+Breitling LP (2010). dagR: a suite of R functions for directed acyclic graphs. Epidemiology 21(4):586-587.\cr
+Breitling LP, Duan C, Dragomir AD, Luta G (2022). Using dagR to identify minimal sufficient adjustment sets and
+to simulate data based on directed acyclic graphs. Int J Epidemiol 50(6):1772-1777.\cr
+Greenland S, Pearl J, Robins JM (1999). Causal diagrams for epidemiologic research. Epidemiology 10(1):37-48.\cr
+Knüppel S, Stang A (2010). DAG Program: identifying minimal sufficient adjustment sets. Epidemiology 21(1):159.\cr
 }
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
 }
 
 \seealso{
-\code{\link{viv}}, \code{\link{summary_dagRdag}}
+\code{\link{viv}}, \code{\link{summary.dagRdag}}
 }
-\examples{
-d3<-demo.dag3();
-d3s<-dag.search(d3);
-msas(d3s$searchRes);
-bs<-brute.search(d3);
-msas(bs);
-}
+
+

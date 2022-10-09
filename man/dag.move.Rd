@@ -24,8 +24,3 @@ The same DAG, but with the feature repositioned.
 \author{
 Lutz P Breitling <l.breitling@posteo.de>
 }
-
-
-\examples{
-\dontrun{dag1m<-dag.move(dag.adjust(demo.dag1(), 3));}
-}

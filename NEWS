@@ -1,3 +1,16 @@
+2021-10-08
+* version 1.2.0 to 1.2.1
+- documentation house keeping
+* added dag.sim2
+- extends the functionality of dag.sim
+- binary nodes can be simulated based on linear risk difference model
+- for both this new specification and the previously available simulations
+  based on the logistic model, the success probability can now be specified
+  either for the overall cohort (as before) or for the reference category
+  (i.e., where the summed up weighted predictors equal 0)
+- most dag.sim calls should be compatible with dag.sim2, but both functions
+  will be available for the time being
+
 2021-04-24
 * version 1.1.3 to 1.2.0
 - added generic print, plot, and summary functions
@@ -50,3 +63,8 @@ OPEN ISSUES
 * helper functions should go internal...
 * more recently, better algorithms used to identify open backdoor
   paths have been published and should be implemented in dagR
+  (or at least improve pertinent interface to dagitty)
+* add function to convert dagitty/ggdag DAG objects to dagR objects
+* extend simulation capacities to additional distributions (trying not
+  to break backwards compatibility?) and
+  convenient repeated sampling (output list?)
